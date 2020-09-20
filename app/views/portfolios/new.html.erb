@@ -1,0 +1,8 @@
+<h3>Create a Portfolio</h3>
+<%= form_with model: @portfolio do |form| %>
+  <%= form.text_field :name, placeholder: "Name" %>
+  <%= form.text_field :desription, placeholder: "Description" %>
+
+  <%= form.submit %>
+<% end %>
+

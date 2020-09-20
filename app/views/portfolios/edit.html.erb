@@ -1,0 +1,7 @@
+<h3>Update Work Details</h3>
+<%= form_with model: @portfolio do |form| %>
+  <%= form.text_field :name, placeholder: "Name" %>
+  <%= form.text_field :desription, placeholder: "Portfolio" %>
+
+  <%= form.submit %>
+<% end %>

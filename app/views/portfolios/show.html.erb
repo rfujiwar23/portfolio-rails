@@ -1,0 +1,10 @@
+<h1>Portfolios#show</h1>
+<p>Find me in app/views/portfolios/show.html.erb</p>
+
+<h1><%= @portfolio.name %></h1>
+<h4><%= @portfolio.desription %></h4>
+
+
+
+<%= link_to 'Remove', @portfolio, method: :delete, data: { confirm: 'Are you sure?' } %>
+
